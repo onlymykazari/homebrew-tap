@@ -1,6 +1,6 @@
 cask "macscp-revived" do
-  version "1.0.1"
-  sha256 "21eb3f541f818f16d7944f0dd3ae07893c9672b9771f3953173bfaa010546b3f"
+  version "1.1.0"
+  sha256 "4be766d93a52af85ecc2c28009da7d1176c68061495aa62aab4fb89352e23243"
 
   url "https://github.com/onlymykazari/macSCP-Revived/releases/download/v#{version}/macSCP-Revived-#{version}.dmg"
   name "macSCP-Revived"
@@ -21,5 +21,6 @@ cask "macscp-revived" do
     "~/Library/Caches/com.onlymykazari.macscp-revived",
     "~/Library/Preferences/com.onlymykazari.macscp-revived.plist",
     "~/Library/Saved Application State/com.onlymykazari.macscp-revived.savedState",
+    "~/Library/Containers/com.onlymykazari.macscp-revived",
   ]
 end
