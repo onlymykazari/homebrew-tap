@@ -1,6 +1,6 @@
 cask "macscp-revived" do
-  version "1.1.0"
-  sha256 "4be766d93a52af85ecc2c28009da7d1176c68061495aa62aab4fb89352e23243"
+  version "1.2.0"
+  sha256 "d7f11445bea2fbdc47e81504feb14ff66be6a2ddd627088aac464e8153488090"
 
   url "https://github.com/onlymykazari/macSCP-Revived/releases/download/v#{version}/macSCP-Revived-#{version}.dmg"
   name "macSCP-Revived"
